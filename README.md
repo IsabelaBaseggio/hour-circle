@@ -1,6 +1,6 @@
 # Hour-Circle
 
-[README(portuguese)](https://github.com/IsabelaBaseggio/basic-calculator/blob/main/README.pt.md)
+[README(portuguese)](https://github.com/IsabelaBaseggio/hour-circle/blob/main/README.pt.md)
 
 #### Status: Ongoing
 
