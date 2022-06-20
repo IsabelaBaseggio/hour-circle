@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(/images/galaxy.jpg);
+    background-size: cover;
+}
+
+header{
+    max-width: 40vw;
+    margin-top: 15px;
+    margin-left: 15px;
+    padding: 10px;
+}
+
+#title{
+    font-family: 'Codystar', cursive;
+    color: white;
+    font-size: 5em;
+    text-shadow: 0 0 0.2em white, 0 0 0.2em white;
+}
