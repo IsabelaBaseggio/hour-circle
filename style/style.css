@@ -9,15 +9,29 @@ body{
 }
 
 header{
-    max-width: 40vw;
-    margin-top: 15px;
-    margin-left: 15px;
+    max-width: 40%;
+    margin: 30px;
     padding: 10px;
 }
 
 #title{
     font-family: 'Codystar', cursive;
     color: white;
-    font-size: 5em;
-    text-shadow: 0 0 0.2em white, 0 0 0.2em white;
+    font-size: 80px;
+    animation: blink 6s alternate infinite ease-in-out;
+}
+
+@keyframes blink {
+    0%{
+        filter: drop-shadow(0 0 0 white);
+    }
+    30%{
+        filter: drop-shadow(0 0 0.2em white);
+    }
+    60%{
+        filter: drop-shadow(0 0 0.2em white);
+    }
+    100%{
+        filter: drop-shadow(0 0 0 white);     
+    }
 }
