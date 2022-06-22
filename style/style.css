@@ -5,7 +5,10 @@
 
 body{
     background-image: url(/images/galaxy.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
 }
 
 header{
@@ -51,4 +54,10 @@ input{
     padding: 20px 15px;
     width: calc(100% - 40%);
     border: none;
+    background-color: #040604;
+    color: #85858f;
+}
+
+input::placeholder{
+    color: #85858f;
 }
